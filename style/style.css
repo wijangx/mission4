@@ -141,6 +141,7 @@ body {
   background: #f8fafc;
   transition: 0.2s;
   color: var(--text-dark);
+  min-width: 0;
 }
 .input-task:focus {
   border-color: var(--text-light);
@@ -163,6 +164,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4px; 
+  flex-shrink: 0;
+  white-space: nowrap;
 }
 .btn-submit:hover {
   background: var(--primary-hover);
